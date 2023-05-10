@@ -1,0 +1,66 @@
+\documentclass{beamer}
+
+\usepackage{luatexja-fontspec}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+\tikzstyle{process} = [rectangle, 
+minimum width=12cm, 
+minimum height=1cm, 
+text centered, 
+draw=black, 
+fill=orange!30]
+
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    }
+\usetheme{Madrid}
+
+\title[]{title here}
+
+\subtitle{subtitle}
+
+\author[小嶋健汰] 
+{小嶋健汰\inst{1}}
+
+\institute[静岡大学]
+{
+  \inst{1}
+  情報学部行動情報学科4年\\
+  静岡大学
+}
+
+\date[2023/5/10]
+{lab, 2023/5/10}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+	\frametitle{Sample frame title}
+	\begin{itemize}
+		\item 
+		\begin{itemize}
+			\item 
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\iffalse
+\begin{frame}
+	\frametitle{Sample frame title}
+	\begin{itemize}
+		\item 
+		\begin{itemize}
+			\item 
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+\fi
+
+\end{document}
